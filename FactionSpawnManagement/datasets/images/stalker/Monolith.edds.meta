@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{84D004064819D982}FactionSpawnManagement/datasets/images/stalker/Monolith.edds"
+ Author "thedmitri"
+ ChangeDate 1076015161
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Monolith.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{32149C50A5945563}FactionSpawnManagement/datasets/images/stalker/Military.edds"
+ Author "thedmitri"
+ ChangeDate 64122937
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Military.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

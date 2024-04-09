@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7792F84C91E470DA}FactionSpawnManagement/datasets/images/stalker/Sin.edds"
+ Author "thedmitri"
+ ChangeDate -942510023
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Sin.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

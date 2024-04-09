@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{745A6996C5155B4B}FactionSpawnManagement/datasets/images/stalker/ISG.edds"
+ Author "thedmitri"
+ ChangeDate 1741320249
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "ISG.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

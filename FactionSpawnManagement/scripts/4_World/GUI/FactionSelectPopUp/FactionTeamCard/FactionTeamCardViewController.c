@@ -1,0 +1,2 @@
+class FactionTeamCardViewController: ViewController{
+};

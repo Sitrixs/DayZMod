@@ -1,0 +1,120 @@
+PanelWidgetClass rootFrame {
+ position 0 0.0086
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 1
+ scriptclass "FactionSelectViewController"
+ {
+  PanelWidgetClass CharacterPanel17 {
+   visible 1
+   ignorepointer 1
+   color 0.3882 0.3882 0.3882 1
+   position 0 0
+   size 0.37 0.84
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style DA_Smooth_Big
+   {
+    PanelWidgetClass CharacterPanel18 {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 0 0
+     size 0.98 0.97
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DA_Smooth_Big
+    }
+    PanelWidgetClass CharacterPanel19 {
+     ignorepointer 1
+     color 0.3882 0.3882 0.3882 1
+     position 0 0
+     size 1 0.1387
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DA_Smooth_Big
+     {
+      PanelWidgetClass CharacterPanel110 {
+       visible 1
+       ignorepointer 1
+       color 0.1137 0.1137 0.1137 1
+       position 0 0
+       size 0.97 0.87
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Small_10px
+       {
+        PanelWidgetClass PanelWidget11 {
+         ignorepointer 1
+         color 0.2275 0.2275 0.2275 1
+         position 0 0
+         size 0.96 0.66
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+        }
+        TextWidgetClass titleText2 {
+         ignorepointer 1
+         position 0.17 0
+         size 0.106 0.42267
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text "Select Faction"
+         font "gui/fonts/etelkatextpro28"
+         "exact text" 0
+         "size to text h" 1
+         "text valign" center
+        }
+       }
+      }
+     }
+    }
+    GridSpacerWidgetClass gridFaction {
+     ignorepointer 1
+     position 0 0.02
+     size 0.972 0.843
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     Padding 5
+     Margin 5
+     Rows 4
+     {
+      ScriptParamsClass {
+       Binding_Name "faction_teams"
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,191 @@
+FrameWidgetClass rootFrame {
+ size 1000 1000
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   color 0.1922 0.1922 0.1922 1
+   size 0.50106 0.63309
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+   {
+    GridSpacerWidgetClass GridSpacerWidget0 {
+     ignorepointer 1
+     size 48 48
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     Padding 10
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     {
+      PanelWidgetClass DA_Squad {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Squad
+      }
+      PanelWidgetClass DA_Squad_Stroke {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Squad_Stroke
+      }
+      PanelWidgetClass DA_Squad_Stroke1 {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Squad_Stroke1
+      }
+      PanelWidgetClass DA_Squad_Small {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Squad_Small
+      }
+      PanelWidgetClass DA_Squad_Small_Stroke {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Squad_Small_Stroke
+      }
+      PanelWidgetClass DA_Squad_Small_Stroke1 {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Squad_Small_Stroke1
+      }
+      PanelWidgetClass DA_Smooth_Big {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Big
+      }
+      PanelWidgetClass DA_Smooth_Big_Stroke {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Big_Stroke
+      }
+      PanelWidgetClass DA_Smooth_Big_Stroke1 {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Big_Stroke1
+      }
+      PanelWidgetClass DA_Smooth_Small_10px {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Small_10px
+      }
+      PanelWidgetClass DA_Smooth_Small_10px_Stroke {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Small_10px_Stroke
+      }
+      PanelWidgetClass DA_Smooth_Small_10px_Stroke1 {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Small_10px_Stroke1
+      }
+      PanelWidgetClass DA_Smooth_Small_5px {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Small_5px
+      }
+      PanelWidgetClass DA_Smooth_Small_5px_Stroke {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Small_5px_Stroke
+      }
+      PanelWidgetClass DA_Smooth_Small_5px_Stroke1 {
+       ignorepointer 1
+       color 0.1608 0.3961 0.1961 1
+       size 100 100
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth_Small_5px_Stroke1
+      }
+     }
+    }
+   }
+  }
+ }
+}

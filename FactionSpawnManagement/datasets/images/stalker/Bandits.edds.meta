@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{572B4E63E9719A6E}FactionSpawnManagement/datasets/images/stalker/Bandits.edds"
+ Author "thedmitri"
+ ChangeDate 432697401
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Bandits.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

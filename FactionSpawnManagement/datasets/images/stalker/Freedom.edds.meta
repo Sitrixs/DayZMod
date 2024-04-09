@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3D3D371E092493D3}FactionSpawnManagement/datasets/images/stalker/Freedom.edds"
+ Author "thedmitri"
+ ChangeDate 1405775929
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Freedom.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

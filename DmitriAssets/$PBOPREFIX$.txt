@@ -1,0 +1,6 @@
+//<'DmitriAssets.pbo' properties via Mikero's dos tools, dll version 9.10>
+prefix=DmitriAssets;
+Mikero=DePbo.dll.9.45;
+version=24031914;
+//PboType=Arma Addon;
+//</properties>

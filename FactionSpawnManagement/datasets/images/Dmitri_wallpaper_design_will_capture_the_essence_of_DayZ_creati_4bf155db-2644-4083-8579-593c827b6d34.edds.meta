@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{11CD42DCE31A2816}FactionSpawnManagement/datasets/images/Dmitri_wallpaper_design_will_capture_the_essence_of_DayZ_creati_4bf155db-2644-4083-8579-593c827b6d34.edds"
+ Author "thedmitri"
+ ChangeDate -450645966
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Dmitri_wallpaper_design_will_capture_the_essence_of_DayZ_creati_4bf155db-2644-4083-8579-593c827b6d34.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

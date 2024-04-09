@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+ Author "thedmitri"
+ ChangeDate -1305219022
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

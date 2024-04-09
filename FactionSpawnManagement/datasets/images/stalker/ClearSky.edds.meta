@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9D5F7B1F21D7E761}FactionSpawnManagement/datasets/images/stalker/ClearSky.edds"
+ Author "thedmitri"
+ ChangeDate 734687289
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "ClearSky.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

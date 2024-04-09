@@ -1,0 +1,1277 @@
+FrameWidgetClass rootFrame {
+ disabled 0
+ position -0.00041 0
+ size 0.8943 0.8457
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ scriptclass "FactionViewController"
+ {
+  GridSpacerWidgetClass factionGrid {
+   visible 1
+   ignorepointer 1
+   size 0.993 0.9
+   halign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   Padding 20
+   "Size To Content H" 1
+   Rows 1
+   {
+    PanelWidgetClass CharacterPanel {
+     ignorepointer 1
+     color 0.3882 0.3882 0.3882 1
+     position -0.22993 0
+     size 0.51385 0.094
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass "FactionCharacterViewController"
+     style DA_Smooth_Big
+     {
+      PanelWidgetClass CharacterPanel0 {
+       visible 1
+       ignorepointer 1
+       color 0.1137 0.1137 0.1137 1
+       position 0 0
+       size 0.985 0.98
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        ImageWidgetClass ImageWidget0 {
+         ignorepointer 1
+         position 0 0.08
+         size 0.99 0.601
+         halign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{11CD42DCE31A2816}FactionSpawnManagement/datasets/images/Dmitri_wallpaper_design_will_capture_the_essence_of_DayZ_creati_4bf155db-2644-4083-8579-593c827b6d34.edds"
+         mode additive
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+         {
+          PanelWidgetClass GridSpacerWidget2 {
+           ignorepointer 1
+           position 0.07 0
+           size 0.268 0.82
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           {
+            TextWidgetClass relationText {
+             ignorepointer 1
+             color 0.5804 0.5804 0.5804 1
+             position 0 0
+             size 1 0.06
+             halign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             style Bold
+             text "Relations"
+             font "gui/fonts/etelkatextpro22"
+            }
+            GridSpacerWidgetClass GridSpacerWidget4 {
+             ignorepointer 1
+             position 0 0.06
+             size 1 0.121
+             halign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             scriptclass "ViewBinding"
+             "Size To Content V" 1
+             Columns 1
+             Rows 12
+             {
+              ScriptParamsClass {
+               Binding_Name "faction_item_labels"
+              }
+             }
+            }
+           }
+          }
+          GridSpacerWidgetClass GridSpacerWidget3 {
+           ignorepointer 1
+           position 0.05 0.09
+           size 0.5 0.3
+           halign right_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           "Size To Content V" 1
+           Columns 1
+           Rows 2
+           {
+            TextWidgetClass TextWidget12 {
+             ignorepointer 1
+             color 0.5804 0.5804 0.5804 1
+             position 0 0
+             size 0.115 0.2149
+             halign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             style Bold
+             text "Brief History"
+             font "gui/fonts/etelkatextpro22"
+            }
+            RichTextWidgetClass RichTextWidget0 {
+             ignorepointer 1
+             color 0.1843 0.1843 0.1843 1
+             size 0.115 1.503
+             halign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             scriptclass "ViewBinding"
+             text "this is a brief description"
+             font "gui/fonts/etelkatextpro14"
+             "exact text" 1
+             {
+              ScriptParamsClass {
+               Binding_Name "brief_history"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass CharacterPanel1 {
+       ignorepointer 1
+       color 0.3882 0.3882 0.3882 1
+       position 0 0
+       size 1 0.084
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        PanelWidgetClass CharacterPanel2 {
+         visible 1
+         ignorepointer 1
+         color 0.1137 0.1137 0.1137 1
+         position 0 0
+         size 0.985 0.87
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+         {
+          PanelWidgetClass PanelWidget0 {
+           ignorepointer 1
+           color 0.2275 0.2275 0.2275 1
+           position 0 0
+           size 0.98 0.66
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DA_Smooth_Small_10px
+          }
+          TextWidgetClass titleText {
+           ignorepointer 1
+           position 0.17 0
+           size 0.106 0.575
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Character"
+           font "gui/fonts/etelkatextpro28"
+           "exact text" 0
+           "size to text h" 1
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget5 {
+       ignorepointer 1
+       color 0.3882 0.3882 0.3882 1
+       position 0 0
+       size 1 0.32
+       halign center_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        PanelWidgetClass PanelWidget6 {
+         ignorepointer 1
+         color 0.1137 0.1137 0.1137 1
+         position 0 0.01
+         size 0.985 0.97
+         halign center_ref
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Big
+         {
+          GridSpacerWidgetClass gridCharacter {
+           ignorepointer 1
+           position 0 0
+           size 1 0.746
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           Padding 8
+           Margin 8
+           "Size To Content H" 1
+           Columns 2
+           Rows 1
+           {
+            ImageWidgetClass factionImage {
+             ignorepointer 1
+             position 0 0
+             size 0.25 0.41
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             imageTexture "{572B4E63E9719A6E}FactionSpawnManagement/datasets/images/stalker/Bandits.edds"
+             mode blend
+             "src alpha" 1
+             "stretch mode" stretch_w_h
+             filter 0
+            }
+            PanelWidgetClass PanelWidget9 {
+             ignorepointer 1
+             color 0.1137 0.1137 0.1137 1
+             size 0.751 0.41
+             halign center_ref
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             style rover_sim_colorable
+             {
+              PanelWidgetClass PanelWidget10 {
+               visible 0
+               ignorepointer 1
+               color 0.3882 0.3882 0.3882 1
+               position -0.00021 -0.00069
+               size 0.99959 0.04438
+               halign center_ref
+               valign center_ref
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               style rover_sim_colorable
+              }
+              TextWidgetClass NameText {
+               ignorepointer 1
+               position 0.01 0.1
+               size 0.208 0.263
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               text "Name:"
+               font "gui/fonts/etelkatextpro28"
+               "text halign" right
+               "text valign" center
+              }
+              TextWidgetClass MoneyText {
+               visible 0
+               ignorepointer 1
+               position 0.01 0.62
+               size 0.208 0.263
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               text "Money:"
+               "text halign" right
+               "text valign" center
+              }
+              TextWidgetClass NameOutputText {
+               ignorepointer 1
+               position 0.24 0.1
+               size 0.738 0.263
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               scriptclass "ViewBinding"
+               text "Stalker"
+               "text valign" center
+               {
+                ScriptParamsClass {
+                 Binding_Name "player_name"
+                }
+               }
+              }
+              TextWidgetClass MoneyText0 {
+               visible 0
+               ignorepointer 1
+               position 0.24 0.62
+               size 0.738 0.263
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               scriptclass "ViewBinding"
+               text "5000 RU"
+               "text halign" right
+               "text valign" center
+               {
+                ScriptParamsClass {
+                 Binding_Name "player_money"
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        PanelWidgetClass PanelWidget7 {
+         ignorepointer 1
+         color 0.3882 0.3882 0.3882 1
+         position 0 0
+         size 1 0.26
+         halign center_ref
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Big
+         {
+          PanelWidgetClass PanelWidget8 {
+           ignorepointer 1
+           color 0.1137 0.1137 0.1137 1
+           position 0 0.08
+           size 0.98 0.86
+           halign center_ref
+           valign bottom_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DA_Smooth_Big
+           {
+            XComboBoxWidgetClass XComboBoxWidget0 {
+             color 0.3882 0.3882 0.3882 1
+             position 0.01 0
+             size 0.728 0.832
+             halign right_ref
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             scriptclass "ViewBinding"
+             style DA_Squad
+             font "gui/fonts/etelkatextpro28"
+             {
+              ScriptParamsClass {
+               Binding_Name "observable_combobox_teleportation"
+               Selected_Item "observable_combobox_teleportation_selection"
+               Relay_Command "OnLocationChangedExecute"
+              }
+             }
+            }
+            ButtonWidgetClass selectFactionBtn {
+             color 0.3882 0.3882 0.3882 1
+             position 0.01 0
+             size 0.238 0.832
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             scriptclass "ViewBinding"
+             style DA_Smooth5px_ColoredStr
+             text "Faction"
+             {
+              ScriptParamsClass {
+               Relay_Command "OnFactionSelectionPopUpExecute"
+              }
+             }
+            }
+            TextWidgetClass FactionNameText {
+             ignorepointer 1
+             position 0.01 0
+             size 0.237 0.82
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             scriptclass "ViewBinding"
+             font "gui/fonts/etelkatextpro22"
+             "text halign" center
+             "text valign" center
+             {
+              ScriptParamsClass {
+               Binding_Name "faction_name"
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass InventoryView {
+     ignorepointer 1
+     color 0.3882 0.3882 0.3882 1
+     size 0.25 0.094
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass "FactionInventoryViewController"
+     style DA_Smooth_Big
+     {
+      PanelWidgetClass CharacterPanel4 {
+       visible 1
+       ignorepointer 1
+       color 0.1137 0.1137 0.1137 1
+       position 0 0
+       size 0.97 0.98
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        ScrollWidgetClass InventoryScroll {
+         ignorepointer 1
+         position 0 0.08
+         size 0.98 0.841
+         halign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         "Scrollbar V" 1
+         {
+          GridSpacerWidgetClass inventoryGrid {
+           ignorepointer 1
+           size 0.99 0.072
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           scriptclass "ViewBinding"
+           "Size To Content V" 1
+           Rows 100
+           {
+            ScriptParamsClass {
+             Binding_Name "inventory_item_list"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass CharacterPanel5 {
+       ignorepointer 1
+       color 0.3882 0.3882 0.3882 1
+       position 0 0
+       size 1 0.084
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        PanelWidgetClass CharacterPanel6 {
+         visible 1
+         ignorepointer 1
+         color 0.1137 0.1137 0.1137 1
+         position 0 0
+         size 0.97 0.87
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+         {
+          PanelWidgetClass PanelWidget1 {
+           ignorepointer 1
+           color 0.2275 0.2275 0.2275 1
+           position 0 0
+           size 0.96 0.66
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DA_Smooth_Small_10px
+          }
+          TextWidgetClass titleText0 {
+           ignorepointer 1
+           position 0.17 0
+           size 0.106 0.575
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Inventory"
+           font "gui/fonts/etelkatextpro28"
+           "exact text" 0
+           "size to text h" 1
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass CharacterPanel11 {
+       ignorepointer 1
+       color 0.3882 0.3882 0.3882 1
+       size 1 0.084
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        PanelWidgetClass CharacterPanel12 {
+         visible 1
+         ignorepointer 1
+         color 0.1137 0.1137 0.1137 1
+         position 0 0
+         size 0.97 0.87
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+         {
+          PanelWidgetClass PanelWidget3 {
+           ignorepointer 1
+           color 0.2275 0.2275 0.2275 1
+           position 0 0
+           size 0.96 0.66
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DA_Smooth_Small_10px
+           {
+            GridSpacerWidgetClass GridSpacerWidget0 {
+             ignorepointer 1
+             position 0 0
+             size 1 1
+             halign center_ref
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             Columns 2
+             Rows 1
+             {
+              TextWidgetClass PointLeftLabel {
+               ignorepointer 1
+               position 0.2 0.02
+               size 0.106 0.575
+               valign center_ref
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               text "Points Left:"
+               "exact text" 0
+               "size to text h" 1
+               "text valign" center
+              }
+              TextWidgetClass PointLeftText {
+               ignorepointer 1
+               size 0.124 1.217
+               halign center_ref
+               valign center_ref
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               scriptclass "ViewBinding"
+               font "gui/fonts/etelkatextpro22"
+               "text halign" right
+               "text valign" center
+               {
+                ScriptParamsClass {
+                 Binding_Name "point_left"
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass CharacterPanel7 {
+     ignorepointer 1
+     color 0.3882 0.3882 0.3882 1
+     position 0 0
+     size 0.23525 0.094
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass "FactionLoadoutViewController"
+     style DA_Smooth_Big
+     {
+      PanelWidgetClass CharacterPanel8 {
+       visible 1
+       ignorepointer 1
+       color 0.1137 0.1137 0.1137 1
+       position 0 0
+       size 0.97 0.98
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        ScrollWidgetClass LoadoutScroll {
+         ignorepointer 1
+         position 0 0.08
+         size 0.98 0.841
+         halign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         scriptclass ""
+         "Scrollbar V" 1
+         {
+          GridSpacerWidgetClass LoadoutGrid {
+           ignorepointer 1
+           size 1 0.072
+           halign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           scriptclass "ViewBinding"
+           Padding 13
+           Margin 5
+           "Size To Content V" 1
+           Rows 100
+           {
+            ScriptParamsClass {
+             Binding_Name "loadout_item_list"
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass CharacterPanel9 {
+       ignorepointer 1
+       color 0.3882 0.3882 0.3882 1
+       position 0 0
+       size 1 0.084
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        PanelWidgetClass CharacterPanel10 {
+         visible 1
+         ignorepointer 1
+         color 0.1137 0.1137 0.1137 1
+         position 0 0
+         size 0.97 0.87
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+         {
+          PanelWidgetClass PanelWidget2 {
+           ignorepointer 1
+           color 0.2275 0.2275 0.2275 1
+           position 0 0
+           size 0.96 0.66
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DA_Smooth_Small_10px
+          }
+          TextWidgetClass titleText1 {
+           ignorepointer 1
+           position 0.17 0
+           size 0.106 0.575
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           text "Loadout"
+           font "gui/fonts/etelkatextpro28"
+           "exact text" 0
+           "size to text h" 1
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass CharacterPanel13 {
+       ignorepointer 1
+       color 0.3882 0.3882 0.3882 1
+       size 1 0.084
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Big
+       {
+        PanelWidgetClass CharacterPanel14 {
+         visible 1
+         ignorepointer 1
+         color 0.1137 0.1137 0.1137 1
+         position 0 0
+         size 0.97 0.87
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+         {
+          PanelWidgetClass PanelWidget4 {
+           ignorepointer 1
+           color 0.2275 0.2275 0.2275 1
+           position 0 0
+           size 0.96 0.66
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DA_Smooth_Small_10px
+           {
+            GridSpacerWidgetClass GridSpacerWidget1 {
+             ignorepointer 1
+             position 0 0
+             size 1 1
+             halign center_ref
+             valign center_ref
+             hexactpos 0
+             vexactpos 0
+             hexactsize 0
+             vexactsize 0
+             Columns 2
+             Rows 1
+             {
+              TextWidgetClass PointLeftLabel0 {
+               ignorepointer 1
+               position 0.2 0.02
+               size 0.106 0.575
+               valign center_ref
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               text "Points Used:"
+               font "gui/fonts/etelkatextpro22"
+               "exact text" 0
+               "size to text h" 1
+               "text valign" center
+              }
+              TextWidgetClass PointUsedText {
+               ignorepointer 1
+               size 0.124 1.217
+               halign center_ref
+               valign center_ref
+               hexactpos 0
+               vexactpos 0
+               hexactsize 0
+               vexactsize 0
+               scriptclass "ViewBinding"
+               "text halign" right
+               "text valign" center
+               {
+                ScriptParamsClass {
+                 Binding_Name "point_used"
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass CharacterPanel15 {
+   visible 1
+   ignorepointer 1
+   color 0.3882 0.3882 0.3882 1
+   position 0 0
+   size 0.99 0.084
+   halign center_ref
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style DA_Smooth_Big
+   {
+    PanelWidgetClass CharacterPanel16 {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 0 0
+     size 0.99 0.87
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DA_Smooth_Small_10px
+    }
+    ButtonWidgetClass ButtonWidget1 {
+     color 0.3882 0.3882 0.3882 1
+     position 0 0
+     size 0.168 0.626
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     style DA_Smooth5px_ColoredStr
+     text "Start"
+     font "gui/fonts/etelkatextpro28"
+     {
+      ScriptParamsClass {
+       Relay_Command "StartExecute"
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass CharacterPanel17 {
+   visible 0
+   ignorepointer 1
+   color 0.3882 0.3882 0.3882 1
+   position 0 -0.05
+   size 0.4 0.6
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style DA_Smooth_Big
+   {
+    PanelWidgetClass CharacterPanel18 {
+     visible 1
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     position 0 0
+     size 0.98 0.97
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DA_Smooth_Big
+    }
+    PanelWidgetClass CharacterPanel19 {
+     ignorepointer 1
+     color 0.3882 0.3882 0.3882 1
+     position 0 0
+     size 1 0.1387
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style DA_Smooth_Big
+     {
+      PanelWidgetClass CharacterPanel110 {
+       visible 1
+       ignorepointer 1
+       color 0.1137 0.1137 0.1137 1
+       position 0 0
+       size 0.97 0.87
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DA_Smooth_Small_10px
+       {
+        PanelWidgetClass PanelWidget11 {
+         ignorepointer 1
+         color 0.2275 0.2275 0.2275 1
+         position 0 0
+         size 0.96 0.66
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         style DA_Smooth_Small_10px
+        }
+        TextWidgetClass titleText2 {
+         ignorepointer 1
+         position 0.17 0
+         size 0.106 0.575
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text "Select Faction"
+         "exact text" 0
+         "size to text h" 1
+        }
+       }
+      }
+     }
+    }
+    GridSpacerWidgetClass gridFaction {
+     ignorepointer 1
+     position 0 0.02
+     size 0.972 0.843
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     Padding 5
+     Margin 5
+     {
+      ButtonWidgetClass ButtonWidget2 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget2 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget3 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget3 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget4 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget4 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget5 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget5 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget6 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget6 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget7 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget7 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget8 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget8 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget9 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget9 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+      ButtonWidgetClass ButtonWidget10 {
+       color 0.9961 0.9961 0.9961 1
+       position 10 10
+       size 48 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DA_Smooth10px_ColoredStr
+       {
+        ImageWidgetClass ImageWidget10 {
+         ignorepointer 1
+         position 0 0
+         size 0.6 0.65
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{42CD8B359C257FC2}FactionSpawnManagement/datasets/images/Dmitri_DayZ_frustration_survival_pain_zombie_bandits_friendly_2267c022-1093-478b-9aba-7d4a10f5e322.edds"
+         mode blend
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

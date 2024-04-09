@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4A58056F60062290}FactionSpawnManagement/datasets/images/stalker/Ecologists.edds"
+ Author "thedmitri"
+ ChangeDate 1170894905
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Ecologists.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

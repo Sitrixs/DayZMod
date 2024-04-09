@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3DF85FD8F4369357}FactionSpawnManagement/datasets/images/stalker/Mercinaries.edds"
+ Author "thedmitri"
+ ChangeDate 1976201273
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Mercinaries.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

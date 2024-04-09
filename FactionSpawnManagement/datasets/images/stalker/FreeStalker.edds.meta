@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2CD945E55E21495B}FactionSpawnManagement/datasets/images/stalker/FreeStalker.edds"
+ Author "thedmitri"
+ ChangeDate 1506439225
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "FreeStalker.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
